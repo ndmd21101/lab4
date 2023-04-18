@@ -1,0 +1,58 @@
+<!-- Names: Hares Malik, Duc Nyugen 
+Date: 2023-04-17
+Course: WEBD6201
+Description: make a about page to give a sample information page for the contact methods for the character
+also create a submittable form to contact the ficitional character
+-->
+
+<h1 id="welcome"><i class="fa-solid fa-envelope"></i></i> WEBD6201 Demo Contact Us</h1>
+<div id="messageArea"></div>
+<div class="row justify-content-lg-center g-3">
+  <form method="get" id="contactform" name="contactForm" class="col-lg-6 col-md-10 col-sm-10">
+
+    <p> for any additional information you may reach out to Big Daddy Chillins Logistical team.</p>
+    <div>
+      <table>
+        <tr>
+          <th>Phone Number</th>
+          <th>Email Address</th>
+          <th> Office Location</th>
+        </tr>
+        <tr>
+          <td>+1 (999) - 999 - 9999</td>
+          <td>WeChillBig@Chillins.org</td>
+          <td> <a
+              href="https://www.google.com/maps/place/Mount+Everest/@27.9881296,86.9252692,8835m/data=!3m1!1e3!4m5!3m4!1s0x39ee19b7a0ab4a09:0xd4f484d183572d30!8m2!3d27.9881216!4d86.9252859"> Mount Everest</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Name</span>
+      <input type="text" class="form-control" id="fullName" name="fullName" placeholder="e.g. John Doe">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Contact Number</span>
+      <input type="text" class="form-control" id="contactNumber" name="contactNumber" placeholder="e.g. 6471234567">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Email Address</span>
+      <input type="text" class="form-control" id="emailAddress" name="emailAddress"
+        placeholder="e.g. johndoe@gmail.com">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Additional Comments</span>
+      <textarea class="form-control" aria-label="Additional Comments"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" id="submitButton"><i class="fas fa-envelope fa-lg"></i>
+      Submit</button>
+    <button type="reset" class="btn btn-warning" id="resetButton"><i class="fas fa-undo fa-lg"></i> Cancel</button>
+  </form>
+
+  <div class="col-lg-4 col-md-4">
+    <a href="/contact-list" class="btn btn-primary btn-lg link"><i class="fas fa-users fa-lg"></i> Show Contact
+      List</a>
+  </div>
+</div>
