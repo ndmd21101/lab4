@@ -1,4 +1,4 @@
-import { Batch } from "mongodb"
+
 
 (function () {
 
@@ -317,7 +317,6 @@ import { Batch } from "mongodb"
         $('#registerForm').on('submit', function(e) {
             
             e.preventDefault();
-            console.log("Yo sup bitch");
             var fname = $("#FirstName").val();
             var lname = $("#lastName").val();
             var email = $("#emailAddress").val();
